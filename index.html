@@ -296,5 +296,15 @@
         </table>
     </div>
     </div>
+
+    <script>
+        let a = document.querySelectorAll("a");
+        a.forEach( (item) => {
+            item.addEventListener("click", function () {
+                this.classList.toggle("focus");
+   
+            } )
+        } )
+    </script>
 </body>
 </html>
