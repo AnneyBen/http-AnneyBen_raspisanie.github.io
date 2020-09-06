@@ -12,6 +12,26 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/**a:focus + table{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     padding: 0;
     margin: 0;
@@ -34,19 +54,19 @@ h1{
 }
 
 table{
-    display: none;
+  display: none;
     width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
+  
 }
 
-a:focus + table{
+a.active + table{
     display: block;
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
-}
 
+}
+ 
 
 table tr td:first-child{
     width: 15%;
