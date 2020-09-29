@@ -1,10 +1,4 @@
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 
 *{
     -webkit-box-sizing: border-box;
@@ -54,9 +48,9 @@ h1{
 }
 
 table{
-  display: none;
-    width: 90%;
-  
+    display: none;
+    width: 100%;
+    margin: 0 auto;
 }
 
 a.active + table{
@@ -67,8 +61,11 @@ a.active + table{
 
 }
  
-
 table tr td:nth-child(2){
+    width: 15%;
+}
+
+table tr td:nth-child(3){
     width: 15%;
 }
 
@@ -86,6 +83,8 @@ table td:first-child{
     padding: 5px 0px;
     text-align: center;
 }
+
+
 
 a.button{
     padding: 5px;
